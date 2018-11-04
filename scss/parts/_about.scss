@@ -1,0 +1,54 @@
+.about {
+    background: url('../img/part-2.jpg') no-repeat center / cover;
+    padding: 80px 0px;
+
+    &__container {
+
+
+    }
+
+    &__left {
+       
+    }
+
+    &__title {
+
+        @include title;
+        padding-bottom: 55px;
+    }
+
+    &__description {
+        width: 540px;
+        padding-bottom: 29px;
+        @include description;
+
+    }
+
+    &__btn {
+        margin-top: 12px;
+    }
+
+
+    &__right {
+    
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__img {
+
+        align-self: center;
+        margin-bottom: 5px;
+
+        &--right {
+            align-self: flex-end;
+        }
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        
+    }
+
+}

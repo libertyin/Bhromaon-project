@@ -1,0 +1,65 @@
+.search-form {
+
+    font-size: 0px;
+    display: inline-block;
+
+    &__field,
+    &__btn {
+
+        vertical-align: middle;
+        height: 60px;
+        border: none;
+        background-color: $color-white;
+        outline: $color-white;
+    }
+
+    &__field {
+        
+        text-align: center;
+        color: $color-grey;
+        width: 500px;
+
+    
+
+        &::placeholder {
+        @include placeholder;
+
+    }
+     
+         &:focus::placeholder{
+         color: transparent
+        }
+
+    }
+
+    &__btn {
+
+        width: 150px;
+        border: 2px solid $color-white;
+        background-color: $color-blue;
+        cursor: pointer;
+        fill: $color-white;
+
+        @include font-aleo-uppercase;
+
+        & svg {
+
+            position: relative;
+                top: 4px;
+                left: 12px;
+    
+        }
+
+        &:hover {
+            background-color: $color-blue-lighter;
+            color: $color-orange;
+            fill: $color-orange;
+        }
+
+        
+    }
+
+
+
+}
+

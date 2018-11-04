@@ -1,0 +1,48 @@
+.instruction {
+    background-color: $color-grey-black;
+
+    &__svg {
+
+        justify-content: space-between;
+        text-align: center;
+        padding: 90px 66px;
+
+        & span {
+
+            padding-top: 12px;
+            display: block;
+            font-family: $font-aleo-regular;
+            text-align: center;
+            font-size: $font-h2;
+            color: $color-white-grey;
+        }
+
+        #search-places {
+            fill: #5474fd;
+            opacity: 0.6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        #select-places {
+            fill: #ff6363;
+            opacity: 0.6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        #book-enjoy {
+            fill: #00a2ff;
+            opacity: 0.6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+}
+
+}

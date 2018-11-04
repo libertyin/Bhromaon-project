@@ -1,0 +1,20 @@
+.skroll {
+
+    &__link {
+
+        text-decoration: none;
+        color: $color-white;
+        fill: $color-white;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    & span {
+        display: block;
+    }
+
+    :hover {
+        color: $color-orange;
+        fill: $color-orange;
+    }
+}

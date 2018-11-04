@@ -1,0 +1,11 @@
+.comments {
+    background: url('../img/part-5.jpg') no-repeat center / cover;
+    padding: 105px 0px 200px;
+
+    &__title {
+        text-align: center;
+        padding-bottom: 85px;
+        @include title;
+    }
+
+}

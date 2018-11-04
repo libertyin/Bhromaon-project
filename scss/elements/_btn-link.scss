@@ -1,0 +1,18 @@
+.btn-link {
+
+    @include font-aleo-uppercase;
+
+    display: block;
+    background-color: $color-blue;
+    text-align: center;
+    padding: 20px;
+    width: 225px;
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(73,107,254) 43%,rgb(84,116,253) 33%);
+
+    &:hover {
+        
+        color: $color-orange;
+        background: linear-gradient(45deg, rgb(84,116,253) 43%,rgb(73,107,254) 33%);
+    }
+}

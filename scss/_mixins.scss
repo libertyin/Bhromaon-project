@@ -1,0 +1,44 @@
+// mixins
+@mixin font-aleo-uppercase
+ {
+
+    font-family: $font-aleo-regular;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $color-white;
+    letter-spacing: 2px;
+}
+
+@mixin placeholder {
+    
+    text-align: center;
+    color: $color-grey;
+    font-family: $font-josefin;
+    letter-spacing: 2px;
+
+}
+
+@mixin logo {
+    font-size: $font-logo;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@mixin title {
+    font-family: $font-aleo-regular;
+    font-size: $font-h2;
+    font-weight: 300;
+}
+
+@mixin description {
+    font-size: $font-base-grown;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: $font-base-grown;
+    color: $color-white-grey;
+}
+
+
+
+

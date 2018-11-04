@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-josefin;
+    font-size: $font-base;
+    line-height: $line-height-base;
+    color: $color-white;
+}
+
+.body-margin {
+    margin: 15px;
+}
+
+.grid {
+    width: 1110px;
+    margin: 0 auto;
+}

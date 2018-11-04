@@ -1,0 +1,28 @@
+//variables
+@import "variables";
+
+//mixins
+@import "mixins";
+
+//common
+@import "common/main";
+@import "common/fonts";
+@import "common/layout";
+
+//elements
+@import "elements/btn-link";
+@import "elements/skroll";
+@import "elements/comments-block";
+@import "elements/country-about";
+@import "elements/nav";
+@import "elements/search-form";
+@import "elements/socials";
+
+
+// parts
+@import "parts/header";
+@import "parts/about";
+@import "parts/country";
+@import "parts/instruction";
+@import "parts/comments";
+@import "parts/footer";

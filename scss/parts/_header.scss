@@ -1,0 +1,27 @@
+// Header
+
+.header{
+   background: url('../img/part-1.jpg') no-repeat center / cover;
+   padding: 260px 0px 130px;
+   text-align: center;
+
+   &__title {
+       padding-bottom: 18px;
+       font-size: $font-h1;
+       letter-spacing: 2px;
+       font-weight: 500;
+       line-height: 0px;
+       text-transform: uppercase;
+   }
+
+   &__subtitle {
+    padding-bottom: 40px;
+    font-size: $font-h3;
+    font-weight: 300;
+    letter-spacing: 6px;
+   }
+
+   &__form {
+       padding-bottom: 120px;
+   }
+}

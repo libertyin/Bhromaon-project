@@ -1,0 +1,18 @@
+.footer {
+    background-color: #232323;
+    padding: 120px 0px 50px;
+    text-align: center;
+
+    &__logo {
+
+        @include logo;
+        display: block;
+    }
+
+    &__subtitle {
+        padding-bottom: 25px;
+        font-size: $font-base-grown;
+        font-weight: 300;
+    }
+
+}

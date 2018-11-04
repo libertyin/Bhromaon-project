@@ -1,0 +1,14 @@
+.country {
+    background: url('../img/part-3.jpg') no-repeat center / cover;
+    padding: 230px 0px 100px;
+
+    &--spain {
+        background: url('../img/part-4.jpg') no-repeat center / cover;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

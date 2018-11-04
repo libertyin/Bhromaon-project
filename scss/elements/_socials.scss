@@ -1,0 +1,28 @@
+.socials {
+
+    &__list {
+        list-style: none;;
+    }
+
+    &__item {
+        display: inline-block;
+        margin-right: 18px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        & a {
+            font-size: $font-base-grown;
+            text-decoration: none;
+            color: $color-white;
+
+            &:hover {
+                color: $color-blue;
+            }
+        }
+
+    }
+    
+    
+}
